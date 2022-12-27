@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    box-shadow: 0 0 20px 0 purple;
+}
+.box{
+    width: 16px;
+    height: 16px;
+    background: rgb(32, 31, 31);
+    box-shadow: 0 0 2px red;
+    transition: 2s ease;
+}
+.box:hover {
+    transition-duration: 0ms;
+}
